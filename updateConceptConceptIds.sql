@@ -1,3 +1,4 @@
+SET FOREIGN_KEY_CHECKS=0;
 update concept set concept_id=1000000 where concept_id=163140;
 update concept set concept_id=1000001 where concept_id=163141;
 update concept set concept_id=1000002 where concept_id=163142;
@@ -258,3 +259,4 @@ update concept set concept_id=1000256 where concept_id=163396;
 update concept set concept_id=1000257 where concept_id=163397;
 update concept set concept_id=1000258 where concept_id=163398;
 update concept set concept_id=1000259 where concept_id=163399;
+SET FOREIGN_KEY_CHECKS=1;
